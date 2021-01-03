@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/sum.js"],"names":["a","b"],"mappings":";;;;;;;;;;AAAA;AAAe,yEAACA,CAAD,EAAIC,CAAJ,EAAU;AACrB,SAAOD,CAAC,GAAGC,CAAX;AACH,CAFD,E","file":"common.c1a5c482.js","sourcesContent":["export default (a, b) => {\n    return a + b;\n}\n"],"sourceRoot":""}

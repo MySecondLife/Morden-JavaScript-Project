@@ -1,0 +1,24 @@
+$body-color: red;
+
+.app {
+    height: 300px;
+    background: yellowgreen;
+    background-image: url("./images/welcome.JPG");
+    transform: rotate(15deg);
+
+    .good {
+        font-size: 14px;
+        color: $body-color;
+        transform: scale(0.5);
+    }
+
+    input {
+        ::placeholder {
+            color: lightcoral;
+        }
+    }
+}
+
+.test {
+    color: pink;
+}

@@ -1,0 +1,7 @@
+{
+    "presets":  [["@babel/preset-env", {
+        "useBuiltIns": "usage",
+        "corejs": "3" // 新版本升级后@babel/polyfill 会被废弃，直接引入core-js/stable和generator-runtime
+    }], "@babel/preset-react" ],
+    "plugins": ["@babel/plugin-proposal-class-properties"] // 增加对实例属性的支持 不过原生方法已经支持 迷惑？？？？ webpack目前不能完全认识es6语法
+}
